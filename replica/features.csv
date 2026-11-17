@@ -1,0 +1,40 @@
+feature,area,priority,original,clone,notes
+Sign up and log in,account,must,yes,no,
+Text to video generation,create,must,yes,no,via provider API
+Image to video generation,create,must,yes,no,
+Camera motion presets with previews,create,must,yes,no,original has 70+
+Model picker with credit cost per model,create,must,yes,no,
+Aspect ratio and duration options,create,must,yes,no,
+Cost shown before generating,credits,must,yes,no,
+Generation progress with status,create,must,yes,no,
+Gallery of generations,library,must,yes,no,
+Watch download and delete,library,must,yes,no,
+Regenerate with same settings,library,must,yes,no,
+Credits balance and history,credits,must,yes,no,
+Plans and credit purchase,billing,must,yes,no,
+Safety filters on prompts and images,safety,must,yes,no,provider moderation + our checks
+Text to image as a starting frame,create,should,yes,no,
+Prompt enhancer,create,should,yes,no,
+Multiple models from several providers,create,should,yes,no,
+Favourites and filters in the gallery,library,should,yes,no,
+Share link to a generation,library,should,yes,no,
+Upscale a generated video,create,should,yes,no,
+End frame (start and end image),create,should,yes,no,
+Video length extend,create,should,yes,no,
+Mobile layout,platform,should,yes,no,
+Cancel subscription,billing,should,yes,no,
+Email when a long generation finishes,notifications,should,yes,no,
+Batch: several variations at once,create,should,yes,no,
+Motion transfer from a reference video,create,could,yes,no,
+Sound effects or music for the clip,create,could,yes,no,
+Team workspace,team,could,yes,no,
+Public API,platform,could,yes,no,
+Community feed and remix,social,could,yes,no,
+Templates by use case (ads product shots),create,could,yes,no,
+Brand kit,create,could,yes,no,
+Higgsfield's own models,models,skip,yes,skip,proprietary; clone uses public model APIs
+Face swap,safety,skip,yes,skip,consent/impersonation risk
+Character models from a real person's face (Soul ID),safety,skip,yes,skip,consent risk; maybe later for the owner's own face only
+Lip-sync of real people,safety,skip,yes,skip,consent risk
+Effects apps marketplace,content,skip,yes,skip,their creators' network
+Its preset names and example videos,brand,skip,yes,skip,their content: write and film our own
