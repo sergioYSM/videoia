@@ -1,0 +1,14 @@
+@import './tokens.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body { min-height: 100%; }
+body { background: var(--color-bg); color: var(--color-text); font-family: var(--font-sans); font-size: 14px; line-height: 20px; -webkit-font-smoothing: antialiased; }
+:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+.tabular { font-variant-numeric: tabular-nums; }
+@keyframes pulse { 50% { opacity: .5 } }
+.skeleton { background: var(--color-surface-raised); animation: pulse 1.6s ease-in-out infinite; }
+@keyframes indet { 0% { transform: translateX(-100%) } 100% { transform: translateX(250%) } }
+.indeterminate { animation: indet 1.4s var(--ease, ease-in-out) infinite; }
+dialog::backdrop { background: rgb(0 0 0 / .8); }
+@media (prefers-reduced-motion: reduce) { .skeleton, .indeterminate { animation: none } *, *::before, *::after { transition: none !important } }

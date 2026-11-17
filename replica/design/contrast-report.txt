@@ -1,0 +1,33 @@
+  AAA   18.27:1  text                     on bg                   
+  AAA   17.17:1  text                     on surface              
+  AAA   15.75:1  text                     on surface-raised       
+  AAA   14.16:1  text                     on surface-hover        
+  AAA   12.36:1  text                     on surface-active       
+  AAA    8.46:1  text-muted               on bg                   
+  AAA    7.95:1  text-muted               on surface              
+  AAA    7.30:1  text-muted               on surface-raised       
+  AA     6.56:1  text-muted               on surface-hover        
+  AA     5.92:1  text-subtle              on bg                   
+  AA     5.57:1  text-subtle              on surface              
+  AA     5.11:1  text-subtle              on surface-raised       
+  AAA    9.44:1  on-accent                on accent               
+  AAA    9.86:1  accent                   on bg                   
+  AAA    9.27:1  accent                   on surface              
+  AAA    8.50:1  accent                   on surface-raised       
+  AAA    7.23:1  danger                   on bg                   
+  AA     6.80:1  danger                   on surface              
+  AA     6.24:1  danger                   on surface-raised       
+  AAA    7.11:1  on-danger                on danger               
+  AAA    8.44:1  success                  on surface              
+  AAA    7.74:1  success                  on surface-raised       
+  AAA   12.54:1  warning                  on surface              
+  AAA   11.50:1  warning                  on surface-raised       
+  PASS   4.54:1  border-input             on bg                   ui
+  PASS   4.27:1  border-input             on surface              ui
+  PASS   3.91:1  border-input             on surface-raised       ui
+  PASS  13.54:1  focus                    on bg                   ui
+  PASS  12.72:1  focus                    on surface              ui
+  PASS  11.67:1  focus                    on surface-raised       ui
+  AAA   19.29:1  text                     on scrim                
+
+  31 pairs, 0 failing AA
