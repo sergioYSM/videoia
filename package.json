@@ -1,0 +1,1 @@
+{"name":"videoia","private":true,"version":"0.1.0","scripts":{"test:db":"scripts/test-db.sh"},"devDependencies":{"pg":"^8.16.3"}}
